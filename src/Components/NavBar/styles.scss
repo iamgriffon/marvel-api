@@ -1,0 +1,41 @@
+.icon {
+  color: beige;
+  cursor: 'pointer';
+  transform: none;
+}
+
+.icon:hover {
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+.link {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    color: red;
+    text-decoration: none;
+  }
+}
+
+.counter {
+  color: red;
+  padding-left: 20px;
+  justify-content: center;
+  align-content: center;
+}
